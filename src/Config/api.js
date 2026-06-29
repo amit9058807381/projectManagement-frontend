@@ -1,7 +1,7 @@
 import axios from "axios"
 
 
-export const API_BASE_URL="https://projectmanagement-backend1.onrender.com"
+export const API_BASE_URL="https://projectmanagement-backend-ckc4.onrender.com"
 
 const api=axios.create({baseURL:API_BASE_URL})
 
