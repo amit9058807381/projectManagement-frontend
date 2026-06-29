@@ -35,7 +35,7 @@ const AiChatBox = () => {
 
     try {
       const res = await axios.post(
-        "https://projectmanagement-backend-ckc4.onrender.com",
+        "https://projectmanagement-backend-ckc4.onrender.com/api/ai/chat",
         { message: userMsg }
       );
 
